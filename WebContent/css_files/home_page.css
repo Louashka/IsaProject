@@ -1,0 +1,363 @@
+@CHARSET "UTF-8";
+
+body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1093px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1099px;
+  height:1399px;
+}
+#u0 {
+  border-width:0px;
+  position:absolute;
+  left:1px;
+  top:51px;
+  width:1099px;
+  height:1399px;
+  color:#990099;
+}
+#u1 {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:692px;
+  width:1095px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u2_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:85px;
+}
+#u2 {
+  border-width:0px;
+  position:absolute;
+  left:200px;
+  top:144px;
+  width:150px;
+  height:85px;
+}
+#u3 {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:34px;
+  width:146px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u4_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:155px;
+  height:16px;
+}
+#u4 {
+  border-width:0px;
+  position:absolute;
+  left:197px;
+  top:250px;
+  width:155px;
+  height:16px;
+}
+#u5 {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:0px;
+  width:151px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u6_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:343px;
+  height:119px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Arial Black', 'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:900;
+  font-style:normal;
+  font-size:19px;
+  color:#FFFFFF;
+}
+#u6 {
+  border-width:0px;
+  position:absolute;
+  left:550px;
+  top:142px;
+  width:343px;
+  height:119px;
+  font-family:'Arial Black', 'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:900;
+  font-style:normal;
+  font-size:19px;
+  color:#FFFFFF;
+}
+
+.ax_default {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.box_1 {
+}
+.box_2 {
+}
+.ellipse {
+}
+.shape {
+}
+.image {
+}
+.button {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.link_button {
+  color:#169BD5;
+}
+.heading_1 {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.heading_2 {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.heading_3 {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.heading_4 {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+.heading_5 {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.heading_6 {
+  font-family:'Arial ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.paragraph {
+  text-align:left;
+}
+.line {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.flow_shape {
+}
+
+.image {
+}
+
+.ax_default_logo {
+    font-family: "Arial Обычный", Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    line-height: normal;
+}
+
+div {
+    display: block;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+#u8 {
+    position: absolute;
+    left: 433px;
+    top: 350px;
+    width: 235px;
+    height: 60px;
+    font-family: "Arial Полужирный", "Arial Обычный", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(92, 31, 136);
+    border-width: 0px;
+}
+#u8_div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 235px;
+    height: 60px;
+    box-shadow: rgb(49, 16, 72) 0px 0px 10px;
+    font-family: "Arial Полужирный", "Arial Обычный", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(92, 31, 136);
+    background: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 54px;
+}
+
+#u9 {
+    border-width: 0px;
+    position: absolute;
+    left: 2px;
+    top: 20px;
+    width: 231px;
+    word-wrap: break-word;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#u10 {
+    border-width: 0px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    width: 1099px;
+    height: 60px;
+    color: #993366;
+}
+#u10_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1099px;
+    height: 60px;
+    background: inherit;
+    background-color: rgba(92, 31, 136, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(242, 242, 242, 1);
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #993366;
+}
+#u11 {
+    border-width: 0px;
+    position: absolute;
+    left: 2px;
+    top: 22px;
+    width: 1095px;
+    visibility: hidden;
+    word-wrap: break-word;
+}
+
+#u12 {
+    position: absolute;
+    left: 848px;
+    top: 20px;
+    width: 95px;
+    height: 20px;
+    font-family: "Arial Полужирный", "Arial Обычный", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+}
+
+.link_button {
+    color: #169BD5;
+}
+#u12_div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 95px;
+    height: 20px;
+    box-shadow: none;
+    font-family: "Arial Полужирный", "Arial Обычный", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0px;
+}
+
+#u13 {
+    border-width: 0px;
+    position: absolute;
+    left: 2px;
+    top: 1px;
+    width: 93px;
+    white-space: nowrap;
+}
