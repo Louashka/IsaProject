@@ -14,7 +14,7 @@
 		Логин <input type = "text" name = "nickname"></br>
 		Пароль <input type = "password" name = "password"></br>
 		Повторите пароль <input type = "password" name = "repeat"></br>
-		email <input type = "text" name = "eamil"></br>
+		email <input type = "text" name = "email"></br>
 		<input type = "submit" name = "nickname">	
 	
 	</form>

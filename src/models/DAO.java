@@ -60,8 +60,8 @@ public class DAO {
 	public static void addUser(User user){	
 		
 		Connection con = getConnection();	
-		String sql = "insert into users (id,nickname, password_, "
-		 + "email, level_, progress) values (?,?, ?, ?, ?, ?)";
+		String sql = "insert into users (id_user, nickname, password_, "
+		 + "email, level_, progress) values (?, ?, ?, ?, ?, ?)";
 		
 		try {
 			PreparedStatement stmt = con.prepareStatement(sql);
