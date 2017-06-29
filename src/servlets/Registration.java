@@ -48,7 +48,7 @@ public class Registration extends HttpServlet {
 		if(password.equals(repeat)){
 			User user = new User(String.valueOf(id), nickname, password, email,0,0);
 			DAO.addUser(user);
-			response.sendRedirect("content");
+//			response.sendRedirect("content");
 		}
 		
 	}
