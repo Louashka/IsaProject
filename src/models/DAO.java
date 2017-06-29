@@ -57,6 +57,86 @@ public class DAO {
 		
 	}
 	
+	public static ArrayList<Theory> getTheory(){
+		Connection con = getConnection();
+		ArrayList<Theory> list = new ArrayList<>();
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery("SELECT * FROM theory");
+			while(rs.next()){
+				Theory	theory = new Theory(rs.getInt(1), rs.getInt(2), rs.getString(3));
+				System.out.print(theory.getTheory_content());
+				list.add(theory);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Ошибка извлечения данных");
+		} finally {
+			try {
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		return list;
+		
+	}
+	
+	public static ArrayList<Questions> getQuestions(){
+		Connection con = getConnection();
+		ArrayList<Questions> list = new ArrayList<>();
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery("SELECT * FROM question");
+			while(rs.next()){
+				Questions question = new Questions(rs.getInt(1), rs.getInt(2), rs.getString(3),rs.getInt(4));
+				System.out.print(question.getContent());
+				list.add(question);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Ошибка извлечения данных");
+		} finally {
+			try {
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		return list;
+		
+	}
+	
+	public static ArrayList<Answer> getAnswer(){
+		Connection con = getConnection();
+		ArrayList<Answer> list = new ArrayList<>();
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery("SELECT * FROM question");
+			while(rs.next()){
+				Answer answer = new Answer(rs.getInt(1), rs.getInt(2), rs.getString(3),rs.getBoolean(4));
+				list.add(answer);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Ошибка извлечения данных");
+		} finally {
+			try {
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		return list;
+		
+	}
+	
 	public static void addUser(User user){	
 		
 		Connection con = getConnection();	

@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import models.DAO;
+
+
 /**
  * Servlet implementation class Tasks
  */
@@ -27,7 +30,8 @@ public class Tasks extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		request.setAttribute("theory_list", DAO.getTheory());
+		request.getRequestDispatcher("WEB-INF/tasks.jsp").forward(request, response);
 	}
 
 	/**
