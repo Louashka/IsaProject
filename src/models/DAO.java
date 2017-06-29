@@ -18,7 +18,7 @@ public class DAO {
 			Class.forName("org.postgresql.Driver");
 			String url = "jdbc:postgresql://localhost:5432/isaProject";
 			String login = "postgres";
-			String password = "postgres";
+			String password = "ezerbaev1";
 			con = DriverManager.getConnection(url, 
 					login, password);
 			System.out.println("Соединение успешно установлено");
